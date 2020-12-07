@@ -565,3 +565,18 @@
     </layout>
   </bibliography>
 </style>
+ </else-if>
+        <else-if type="Film">
+          <group suffix=".">
+<text macro="director" suffix=". "/>
+            <text macro="title" suffix=". "/>
+            <text variable="place" suffix=". "/>
+            <text macro="container-title" suffix=", "/>
+            <text variable="producer" prefix="seç. " suffix=", "/>
+            <text variable="date" prefix="n. " suffix=", "/>
+            <text variable="format" prefix="p. " suffix=", "/>
+             <text variable="running time" prefix="p. " suffix=", "/>
+ </group>
+        </else-if>
+<else>
+          <group suffix=".">
